@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MenuControll">
+  <menus>
+    <Menu mnemonicParsing="false" text="Klient">
+      <items>
+        <MenuItem fx:id="mDodajK" mnemonicParsing="false" onAction="#ActionAddClient" text="Dodaj" />
+        <MenuItem mnemonicParsing="false" onAction="#ActionOverviewC" text="Przeglad" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Zamowienia">
+      <items>
+        <MenuItem fx:id="mDodajZ" mnemonicParsing="false" onAction="#ActionChooseClient" text="Dodaj" />
+            <MenuItem mnemonicParsing="false" text="Historia zamowien" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Faktury">
+      <items>
+        <MenuItem mnemonicParsing="false" text="About" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar>

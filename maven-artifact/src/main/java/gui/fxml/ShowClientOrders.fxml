@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllShowClientOrders">
+   <children>
+      <TableView fx:id="tvOrders" layoutX="62.0" layoutY="106.0" prefHeight="200.0" prefWidth="476.0">
+        <columns>
+          <TableColumn fx:id="tcId" prefWidth="25.0" text="ID" />
+          <TableColumn fx:id="tcName" prefWidth="87.0" text="Nazwa" />
+            <TableColumn fx:id="tcColor" prefWidth="77.0" text="Kolor" />
+            <TableColumn fx:id="tcDimensions" prefWidth="70.0" text="Wymiary" />
+            <TableColumn fx:id="tcQuantity" prefWidth="38.0" text="Ilość" />
+            <TableColumn fx:id="tcPrice" prefWidth="41.0" text="Cena" />
+            <TableColumn fx:id="tcCost" prefWidth="46.0" text="Koszt" />
+            <TableColumn fx:id="tcClient" prefWidth="91.0" text="Klient" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

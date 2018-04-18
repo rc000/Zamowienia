@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="289.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllChooseClient">
+   <children>
+     <TableView fx:id="tvClients" layoutX="4.0" layoutY="23.0" prefHeight="200.0" prefWidth="582.0">
+        <columns>
+            <TableColumn fx:id="tcIDClient" prefWidth="26.0" text="ID" />
+          <TableColumn fx:id="tcName" prefWidth="57.0" text="Imie" />
+          <TableColumn fx:id="tcSurname" prefWidth="78.0" text="Nazwisko" />
+            <TableColumn fx:id="tcStreet" prefWidth="64.0" text="Ulica" />
+            <TableColumn fx:id="tcNrHome" prefWidth="61.0" text="Nr Domu" />
+            <TableColumn fx:id="tcPlace" prefWidth="83.0" text="Miejscowosc" />
+            <TableColumn fx:id="tcPhone" prefWidth="68.0" text="Nr tel" />
+            <TableColumn fx:id="tcOrders" prefWidth="115.0" text="Liczba zamowien" />
+        </columns>
+      </TableView>
+      <Button fx:id="bSelectClient" layoutX="372.0" layoutY="250.0" mnemonicParsing="false" onAction="#ActionSelectClient" text="Wybierz klienta" />
+   </children>
+</AnchorPane>
